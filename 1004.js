@@ -7,6 +7,6 @@ var lines = input.split('\n');
 var v1 = parseInt(lines.shift());
 var v2 = parseInt(lines.shift());
 
-var PROD = (v1*v2);
+var PROD = (v1 * v2);
 
 console.log("PROD = " + PROD)

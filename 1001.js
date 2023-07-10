@@ -7,6 +7,6 @@ var lines = input.split('\n');
 var A = parseInt(lines.shift());
 var B = parseInt(lines.shift());
 
-var soma = A + B;
+var X = A + B;
 
-console.log("X = " + soma)
+console.log("X = " + X)
