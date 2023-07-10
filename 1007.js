@@ -11,4 +11,4 @@ var D = parseInt(lines.shift());
 
 var DIFERENCA = (A * B - C * D);
 
-console.log("DIFERENCA = "+ DIFERENCA)
+console.log("DIFERENCA = "+ DIFERENCA);

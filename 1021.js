@@ -54,5 +54,5 @@ console.log(Math.floor(notas) + " moeda(s) de R$ 0.05");
 valor = valor % 0.05
 
 notas = parseFloat(valor / 0.01);
-console.log(notas.toFixed(0) + " moeda(s) de R$ 0.01");
+console.log(notas.toFixed(0) + " moeda(s) de R$ 0.01") ;
 valor = valor % 0.01

@@ -9,4 +9,4 @@ var B = parseInt(lines.shift());
 
 var SOMA = A + B;
 
-console.log("SOMA = " + SOMA);
+console.log("SOMA = " + SOMA); 

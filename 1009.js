@@ -11,4 +11,4 @@ var montanteTotal = parseFloat(lines.shift());
 var comissao = montanteTotal * 0.15;
 var salarioFinal = salarioFixo + comissao;
 
-console.log("TOTAL = R$ "+ salarioFinal.toFixed(2))
+console.log("TOTAL = R$ "+ salarioFinal.toFixed(2));

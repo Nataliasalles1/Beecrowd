@@ -3,7 +3,7 @@
 
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
-var salario = parseFloat(lines.shift());
+let salario = parseFloat(lines.shift());
 
 if (salario >= 0.00 && salario <= 2000) {
     console.log("Isento");

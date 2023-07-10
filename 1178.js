@@ -5,11 +5,11 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var X = parseFloat(lines.shift());
-var obterN = parseFloat(X);
+let X = parseFloat(lines.shift());
+let obterN = parseFloat(X);
 N = [];
 
-for(var i=0; i<100; i++){
+for(let i=0; i<100; i++){
     if(i==0){
         N.push(obterN);
         console.log("N["+i+"] = "+N[i].toFixed(4));

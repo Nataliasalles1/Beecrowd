@@ -4,11 +4,11 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var numero = parseInt(lines.shift());
+let numero = parseInt(lines.shift());
 
-for (var i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
 
-     var produto = i * numero;
+     let produto = i * numero;
 
     console.log(i+ " x " + numero +" = " + produto);
    

@@ -5,10 +5,10 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var valor = parseInt(lines.shift());
-var N = [];
+let valor = parseInt(lines.shift());
+let N = [];
 
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
    N[i] = i%valor
 
     console.log("N[" + [i] + "] = " + N[i])

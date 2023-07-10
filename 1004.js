@@ -9,4 +9,4 @@ var v2 = parseInt(lines.shift());
 
 var PROD = (v1 * v2);
 
-console.log("PROD = " + PROD)
+console.log("PROD = " + PROD);

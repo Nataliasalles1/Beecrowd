@@ -10,4 +10,4 @@ var pi = 3.14159;
 
 var area =(Math.pow(raio,2) * pi);
 
-console.log("A="+ area.toFixed(4))
+console.log("A="+ area.toFixed(4)) 

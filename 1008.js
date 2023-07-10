@@ -8,7 +8,7 @@ var numeroFuncionario = parseInt(lines.shift());
 var horasTrabalhadas = parseInt(lines.shift());
 var salario = parseFloat(lines.shift());
 
-var SALARY = horasTrabalhadas * salario
+var SALARY = horasTrabalhadas * salario;
 
 console.log("NUMBER = "+numeroFuncionario);
 console.log("SALARY = U$ " + SALARY.toFixed(2));

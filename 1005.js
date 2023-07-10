@@ -1,5 +1,5 @@
 /*------------------ 1005 - Média 1 ------------------*/
-/*Resolução autoral: Natalia Salles                    */
+/*Resolução autoral: Natalia Salles                     */
 
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');

@@ -4,9 +4,9 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var X = [];
+let X = [];
 
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     X[i] = parseInt(lines.shift());
     
     if (X[i] < 0 || X[i] === 0) {

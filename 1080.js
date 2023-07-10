@@ -5,10 +5,10 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var maior = 0;
+let maior = 0;
 
-for (var i = 1; i <= 100; i++) {
-    var numero = parseInt(lines.shift());
+for (let i = 1; i <= 100; i++) {
+    let numero = parseInt(lines.shift());
     if(numero > maior){
         maior = numero;
         posicao = i;

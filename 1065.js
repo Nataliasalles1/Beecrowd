@@ -4,10 +4,10 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var contador = 0;
+let contador = 0;
 
-for (var i = 0; i < 5; i++) {
-    var numero = parseInt(lines.shift());
+for (let i = 0; i < 5; i++) {
+    let numero = parseInt(lines.shift());
     if (numero % 2 ==0) {
         contador++;
     }

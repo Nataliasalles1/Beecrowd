@@ -5,10 +5,10 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var valor = 0;
+let valor = 0;
 
-for (var i = 0; i < 6; i++) {
-    var numero = parseFloat(lines.shift());
+for (let i = 0; i < 6; i++) {
+    let numero = parseFloat(lines.shift());
     if (numero > 0) {
         valor++;
     }

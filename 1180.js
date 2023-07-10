@@ -4,15 +4,15 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var N = lines.shift();
-var numero = lines.shift();
+let N = lines.shift();
+let numero = lines.shift();
 
-var arraynumeros = numero.split(" ")
+let arraynumeros = numero.split(" ")
 
-var posicao = 0
-var menor = parseInt(arraynumeros[0])
+let posicao = 0
+let menor = parseInt(arraynumeros[0])
 
-for (var i = 0; i < N; i++) {
+for (let i = 0; i < N; i++) {
     if (parseInt(arraynumeros[i]) < menor) {
         menor = parseInt(arraynumeros[i]);
         posicao = i;

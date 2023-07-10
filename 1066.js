@@ -5,13 +5,13 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-var pares = 0
-var impares = 0
-var positivos = 0
-var negativos = 0
+let pares = 0
+let impares = 0
+let positivos = 0
+let negativos = 0
 
-for (var i = 0; i < 5; i++) {
-    var numeros = parseInt(lines.shift());
+for (let i = 0; i < 5; i++) {
+    let numeros = parseInt(lines.shift());
 
     if (numeros % 2 == 0) {
         pares += 1
